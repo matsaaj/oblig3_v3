@@ -1,0 +1,85 @@
+#registerToggle {
+  font-size: 80%;
+  padding: 0 1em;
+  margin: .75em 0;
+  border-left: 1px solid #d3d3d3;
+  margin-left: 1rem;
+}
+
+#user_display {
+  display: block;
+  font-weight: 400;
+  background-color: #5bc0de;
+  line-height: 1.25;
+  border-radius: .2rem;
+  position: relative;
+  vertical-align: middle;
+}
+
+#user_display a {
+  color: #fff;
+  display: block;
+  padding: .5em 1em;
+}
+
+#acc_icon {
+  vertical-align: middle;
+  padding-right: .5rem;
+}
+
+#user_display ul {
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  right: 0;
+  z-index: 99;
+}
+
+#user_display button, #user_display .dropdown_link {
+  width: 100%;
+  display: block;
+  border-radius: 0;
+  color: #5bc0de;
+  cursor: pointer;
+}
+
+#user_display .dropdown_link:hover {
+  background-color: #5bc0de;
+  color: #fff;
+}
+
+#user_display ul li {
+  background-color: #fff;
+  display: none;
+}
+
+#user_display:hover ul li {
+  display: block;
+}
+
+.item_feed {
+  max-width: 1170px;
+  padding: 0 30px;
+}
+
+.item_display {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.item_ownerprofile {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.item_ownerprofile i {
+  font-size: 72px;
+}
+
+.item_ownerprofile a {
+  margin-top: 2rem;
+  display: block;
+}
